@@ -14,8 +14,8 @@ echo "division" $((num1 / num2))
 echo "modulo" $((num1 % num2))
 
 
-echo "addition" $(expr $num1 + $num2)
-echo "subtraction" $(expr $num1 - $num2)
-echo "multiply" $(expr $num1 \* $num2)
-echo "division" $(expr $num1 / $num2)
-echo "modulo" $(expr $num1 % $num2)
+echo "addition using expr" $(expr $num1 + $num2)
+echo "subtraction using expr" $(expr $num1 - $num2)
+echo "multiply using expr" $(expr $num1 \* $num2)
+echo "division using expr" $(expr $num1 / $num2)
+echo "modulo using expr" $(expr $num1 % $num2)
